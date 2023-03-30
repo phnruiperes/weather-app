@@ -14,8 +14,9 @@ const weather = (lat, lon, callback) => {
         } else {
             const temp = body.current.temperature
             const feel = body.current.feelslike
+            const precip = body.current.precip
 
-            callback(null,"It is currently " + temp + "°C and feels like " + feel + "°C")
+            callback(null,"It is currently " + temp + "°C and feels like " + feel + "°C with "+precip*100+"% probability of precipitation.")
         }
     })
 }

@@ -16,7 +16,7 @@ body{
 
 header{
     padding-top: 16px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 footer{
@@ -37,4 +37,15 @@ header a{
     margin-right: 16px;
 }
 
+input{
+    border: 1px solid #cccccc;
+    padding: 6px
+}
 
+button{
+    cursor: pointer;
+    border: 1 px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 6px
+}
